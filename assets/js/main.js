@@ -33,6 +33,34 @@ const songs = [
       "artist": "Dua Lipa",
       "thumbnail": "./assets/img/cover_art_for_levitating_by_dua_lipa_by_studiorinagraphic_dfu483b-pre.jpg",
       "duration": "3:23"
+    },
+    {
+      "id": 5,
+      "name": "Levitating",
+      "artist": "Dua Lipa",
+      "thumbnail": "./assets/img/cover_art_for_levitating_by_dua_lipa_by_studiorinagraphic_dfu483b-pre.jpg",
+      "duration": "3:23"
+    },
+    {
+      "id": 5,
+      "name": "Levitating",
+      "artist": "Dua Lipa",
+      "thumbnail": "./assets/img/cover_art_for_levitating_by_dua_lipa_by_studiorinagraphic_dfu483b-pre.jpg",
+      "duration": "3:23"
+    },
+    {
+      "id": 5,
+      "name": "Levitating",
+      "artist": "Dua Lipa",
+      "thumbnail": "./assets/img/cover_art_for_levitating_by_dua_lipa_by_studiorinagraphic_dfu483b-pre.jpg",
+      "duration": "3:23"
+    },
+    {
+      "id": 5,
+      "name": "Levitating",
+      "artist": "Dua Lipa",
+      "thumbnail": "./assets/img/cover_art_for_levitating_by_dua_lipa_by_studiorinagraphic_dfu483b-pre.jpg",
+      "duration": "3:23"
     }
   ]
 
@@ -62,14 +90,3 @@ document.addEventListener("DOMContentLoaded", () => {
 })
 
 
-const b = () => {
-  console.log(this);
-}
-
-const a = {
-  c() {
-    b()
-  }
-}
-
-a.c()
