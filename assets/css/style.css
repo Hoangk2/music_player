@@ -38,7 +38,7 @@ html {
 
 .img {
     width: 162px;
-    height: 162px;
+    min-height: 162px;
     padding: 2px;
     border-radius: 50%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
