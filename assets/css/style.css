@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    height: 100vh;
+    background: linear-gradient(to right, #952289, #1b90bc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+}
+
+.card {
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.current-song {
+    font-size: 1rem;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.img {
+    width: 162px;
+    aspect-ratio: 1/1;
+    padding: 2px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+    background: url("../img/shape_of_you.jpg") no-repeat center / cover;
+    background-color: #fff;
+    background-clip: content-box;
+    margin-bottom: 20px;
+}
+
+.title-song {
+    font-size: 2rem;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.singer {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    letter-spacing: .7px;
+}
+
+.time-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.time-wrap span {
+    font-weight: 600;
+    color: #000;
+}
+
+#time {
+    flex-basis: 60%;
+    -webkit-appearance: none;
+    width: 200px;
+    height: 4px;
+    background: #a4c8ff; 
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+}
+
+#time::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  border: 3px solid #007bff;
+  box-shadow: 0 0 2px rgba(0,0,0,0.5);
+}
+
+.current-time {
+    margin-right: 4px;
+}
+
+.total-time {
+    margin-left: 4px;
+}
+
+.action-wrap {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.action-wrap > .icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.action-wrap > .play.icon i{
+    font-size: 3.5rem;
+}
+
+.list-songs {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.song {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.thumnail {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    background-clip: content-box;
+    overflow: hidden;
+    margin-right: 8px;
+}
+
+.thumnail > img {
+    width: 100%;
+    height: 100%;
+}
+
+.name-song {
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.singer-song {
+    font-size: .7rem;
+    color: #9e9999;
+}
